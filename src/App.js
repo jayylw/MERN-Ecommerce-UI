@@ -1,12 +1,14 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Home from './pages/Home';
+import Announcements from './components/Announcements';
+import Silder from './components/Silder';
 
 function App() {
     return (
         <div className="App">
+            <Announcements />
             <Navbar />
-            <Home />
+            <Silder />
         </div>
     );
 }
