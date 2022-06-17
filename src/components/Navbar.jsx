@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 // #region styled-components
 const Container = styled.div`
-    height: 60px;
+    height: 50px;
 `;
 const Wrapper = styled.div`
     padding: 10px 20px;
